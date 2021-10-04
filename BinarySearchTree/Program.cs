@@ -6,7 +6,17 @@ namespace BinarySearchTree
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("welcome to Binary search tree computation");
+            BinarySearchTree<int> binarySearch = new BinarySearchTree<int>(56);
+            binarySearch.Add(30);
+            binarySearch.Add(70);
+            binarySearch.Display();
+            Console.ReadKey();
         }
     }
 }
+        
+    
+
+
+    
+
